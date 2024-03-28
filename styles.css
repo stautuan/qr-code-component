@@ -12,7 +12,6 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 20px;
   min-height: 100vh;
 }
 
@@ -47,6 +46,14 @@ p {
   font-size: 16px;
   color: #7b879d;
 }
+
+footer {
+  display: block;
+  position: fixed;
+  bottom: 0;
+  padding: 1rem 0;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
